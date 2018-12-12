@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rooms</title>
+<link rel="stylesheet" href="addform.css">
+</head>
+
+<body>
+<h1 align="center"> Rooms </h1>
+<div class="container">
+    
+    <form action="/rooms.php" method="post">
+
+  
+
+
+    <label for="Available">Available</label> <br />
+
+     <input type="radio" name="Available" value="yes" checked> YES<br>
+     <input type="radio" name="Available" value="no"> NO<br>
+
+        <label for="pID">Patient ID</label>
+        <input type="text" name="pID" value="">
+
+        <label for="Room_type">Room Type</label>
+        <select id="Room_type" name="Room_type">
+        <option value="single">Single</option>
+        <option value="double">Double</option>
+    
+
+
+
+
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

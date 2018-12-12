@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Add Staffs</title>
+<link rel="stylesheet" href="addform.css">
+</head>
+
+<body>
+<h1 align="center"> Add Staffs</h1>
+<div class="container">
+    
+    <form action="/addStaffs.php" method="post">
+
+
+     <label for="Firstname">First Name</label>
+    <input type="text" name="Firstname" value="">
+    <label for="Lastname">Last Name</label>
+    <input type="text" name="Lastname" value="">
+
+    <label for="Contact">Contact</label>
+    <input type="text" name="Contact" value="">      
+    <label for="gender">Sex</label> <br />
+     <input type="radio" name="gender" value="male" checked> Male<br>
+     <input type="radio" name="gender" value="female"> Female<br>
+     <input type="radio" name="gender" value="other"> Other<br><br>
+     <label for="salary">Salary</label>
+    <input type="text" id="salary" name="salary" value="">
+    <label for="salary">Adress</label>
+    <input type="text" id="adress" name="adress" value="">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+    <option value="Bangladesh">Bangladesh</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+ 
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>
